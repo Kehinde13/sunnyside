@@ -1,0 +1,445 @@
+*{
+    width: 375px;
+    margin: 0px auto;
+}
+
+/* HEADER DESIGNS */
+header {
+    background: url(./images/mobile/image-header.jpg) no-repeat;
+    background-size: 100%;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+    width: 30%;
+    align-self: center;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#burger {
+    width: 20px;
+    align-self: center;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+.arrow {
+    width: 30px;
+}
+
+header h1 {
+    margin: 50px auto;
+}
+
+/* DROPDOWN DESIGN */
+
+#dropdown {
+    display: none;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 80px;
+    background-color: white;
+    left: 40px;
+}
+
+#dropdown a {
+    text-decoration: none;
+    color: gray;
+}
+
+#dropdown button {
+    border: none;
+    background: none;
+    margin-top: 40px;
+    margin-left: 0px; 
+    font-size: 1.2rem;
+    width: 200px;
+}
+
+#dropdown button:hover {
+    cursor: pointer;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+/* TRANSFORM DESIGN */
+
+.Transform-img {
+    background-image: url(./images/mobile/image-transform.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.Transform {
+    text-align: center;
+}
+
+.Transform-text h1 {
+    font-size: 2.5rem;
+    margin: 40px auto;
+}
+
+.Transform-text p {
+    width: 300px;
+    margin: 40px auto;
+}
+
+.Transform-text button, .stand-text button {
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.Transform-text a, .stand-text a  { 
+    text-decoration: none;
+    color: black;
+    font-weight: bold;   
+}
+
+/* STANDOUT DESIGN */
+
+.stand-img {
+    background-image: url(./images/mobile/image-stand-out.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.stand {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.stand-text h1 {
+    font-size: 2.5rem;
+    margin: 40px auto;
+}
+
+.stand-text p {
+    width: 300px;
+    margin: 40px auto;
+}
+
+/* GRAPHIC DESIGN */
+
+.graphic {
+    background-image: url(./images/mobile/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.graphic-text {
+    position: absolute;
+    top: 350px;
+    color: hsl(167, 40%, 24%);
+}
+
+/* PHOTOGRAPHY  DESIGN*/
+
+.photography {
+    background-image: url(./images/mobile/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.photography-text {
+    position: absolute;
+    top: 350px;
+    color: hsl(198, 62%, 26%);
+}
+
+/* TESTIMONIAL DESIGNS */
+
+.testimonials {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.testimonials img {
+    width: 60px;
+    border-radius: 50px;
+    margin: 30px auto;
+}
+
+.testimonials div {
+    margin: 40px auto;
+}
+
+.testimonials h3 {
+    margin: 20px auto;
+}
+
+/* CARDS DESIGN */
+
+.card1 {
+    background: url(./images/mobile/image-gallery-milkbottles.jpg) left no-repeat , url(./images/mobile/image-gallery-orange.jpg) right no-repeat;
+    background-size: 50%, 50%;
+    height: 180px;
+}
+
+.card2 {
+    background: url(./images/mobile/image-gallery-cone.jpg) left no-repeat , url(./images/mobile/image-gallery-sugar-cubes.jpg) right no-repeat;
+    background-size: 50%, 50%;
+    height: 180px;
+}
+
+/* FOOTER DESIGN */
+
+.footer {
+    text-align: center;
+    background-color: #87CEEB;
+    color: hsl(168, 34%, 41%);
+    height: 500px;
+    margin-top: -20px;
+}
+
+
+.footer h1 {
+    padding-top: 50px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+    margin: 20px;
+    font-size: 1.3rem;
+}
+
+.contact a:hover {
+    color: white;
+}
+
+.contact {
+    margin: 60px auto;
+}
+
+.footer img {
+    width: 30px;
+    margin: 20px;
+}
+
+.footer img:hover {
+    color: white;
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px){
+    *{
+        width: 100%;
+        overflow-x: hidden;
+     }
+
+    header {
+        background: url(./images/desktop/image-header.jpg) no-repeat;
+        background-size: 100%;
+        height: 700px;
+    }
+
+    .logo {
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .burger {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+        width: 500px;
+        margin-left: 500px;
+        margin-top: 25px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu button {
+        background: none;
+        border: none;
+        font-size: 1.2rem;
+    }
+
+    .menu button:hover {
+        background-color: #19B5FE;
+        cursor: pointer;
+        border-radius: 30px;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
+    header h1 {
+        letter-spacing: 10px;
+    }
+
+    .arrow {
+        width: 50px;
+        margin-top: 80px;
+    }
+
+    /* DROPDOWN DESIGN */
+
+    .dropdown {
+        display: none;
+    }
+
+    /* TRANSFORM DESIGN  && STAND-OUT DESIGN*/
+
+    .Transform, .stand {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .Transform-img {
+        background-image: url(./images/desktop/image-transform.jpg);
+        height: 500px;
+        float: right;
+        grid-column-start: 2;    
+    }
+
+    .Transform-text {
+        grid-column-start: 1;
+        grid-row-start: 1; 
+        text-align: left;
+        margin: 100px;
+    }
+
+    .Transform-text p, .stand-text p{
+        margin: 0px;
+    }
+    
+    /* STAND-OUT DESIGN  */
+
+    .stand {
+        margin: 0px;
+    }
+
+    .stand-img {
+        background-image: url(./images/desktop/image-stand-out.jpg);
+        height: 500px;
+    }
+
+    .stand-text {
+        text-align: left;
+        margin: 100px;
+    }
+
+    .stand-text button {
+        margin-top: 20px;
+    }
+
+    /* PHOTOGRAPIC */
+
+    .photographic {
+        display: grid;
+        gird-template-columns: 2;
+    }
+
+    /* GRAPHIC DESIGN */
+
+    .graphic {
+        background-image: url(./images/desktop/image-graphic-design.jpg);
+        grid-column-start: 1;
+        grid-row-start: 1; 
+    }
+
+    .graphic-text {
+        width: 300px;
+        left: 200px;
+    }
+
+    /* PHOTOGRAPHY  DESIGN*/
+
+    .photography {
+        background-image: url(./images/desktop/image-photography.jpg);
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
+
+    .photography-text {
+        width: 300px;
+        left: 200px;
+    }
+
+    /* TESTIMONIALS */
+
+    .testimonies {
+        display: flex;
+    }
+
+   /* CARDS DESIGN */
+
+   .card {
+       display: flex;   
+   }
+    .card1 {
+        background: url(./images/desktop/image-gallery-milkbottles.jpg) left no-repeat , url(./images/desktop/image-gallery-orange.jpg) right no-repeat;
+        background-size: 50%, 50%;
+        height: 500px;
+    }
+
+    .card2 {
+        background: url(./images/desktop/image-gallery-cone.jpg) left no-repeat , url(./images/desktop/image-gallery-sugarcubes.jpg) right no-repeat;
+        background-size: 50%, 50%;
+        height: 500px;
+    } 
+
+    /* FOOTER DESIGN */
+
+    .footer {
+        margin-top: -50px;
+    }
+
+    .footer h1 {
+        padding-top: 100px; 
+    }
+
+    .socials {
+        padding-top: 50px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
